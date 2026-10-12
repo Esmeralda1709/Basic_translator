@@ -62,36 +62,36 @@ El objetivo es identificar palabras en español que tengan una representación v
 ## 🗂️ Estructura del proyecto
 
 ```text
-translator_project/
-│
-├── 📁 data/
-│   └── EN-ES.txt
-│
-├── 📁 models/
-│   ├── vocab_en.pkl
-│   ├── vocab_es.pkl
-│   ├── reverse_vocab_es.pkl
-│   ├── emb_en.npy
-│   ├── emb_es.npy
-│   └── W.npy
-│
-├── 📁 src/
-│   ├── corpus.py
-│   ├── tokenizer.py
-│   ├── stopwords.py
-│   ├── vocabulary.py
-│   ├── cooccurrence.py
-│   ├── ppmi.py
-│   ├── svd_model.py
-│   ├── bilingual.py
-│   ├── alignment.py
-│   ├── search.py
-│   ├── save_model.py
-│   └── load_model.py
-│
-├── train.py
-├── translator.py
-└── README.md
+📁 translator_project/
+ │
+ ├── 📁 data/
+ │   └── EN-ES.txt
+ │
+ ├── 📁 models/
+ │   ├── vocab_en.pkl
+ │   ├── vocab_es.pkl
+ │   ├── reverse_vocab_es.pkl
+ │   ├── emb_en.npy
+ │   ├── emb_es.npy
+ │   └── W.npy
+ │
+ ├── 📁 src/
+ │   ├── corpus.py
+ │   ├── tokenizer.py
+ │   ├── stopwords.py
+ │   ├── vocabulary.py
+ │   ├── cooccurrence.py
+ │   ├── ppmi.py
+ │   ├── svd_model.py
+ │   ├── bilingual.py
+ │   ├── alignment.py
+ │   ├── search.py
+ │   ├── save_model.py
+ │   └── load_model.py
+ │
+ ├── train.py
+ ├── translator.py
+ └── README.md
 ```
 
 ### 📂 Descripción de los directorios
